@@ -74,4 +74,4 @@ con esto vemos que tanto el puntaje GINI como AUROC , son bastante buenos por lo
 Por ultimo creamos un Scorecard, para esto usaremos los rangos sugeridos para los puntajes siendo de 300 a 850, con esto creamos coeficientes a partir de la suma de minimos y maximos de los valores obtenidos en cada variable , con los cuales obtendremos una calificacion para cada variable, y luego las aplicamos sobre todo el dataset, usando anteriormente , el WOE , calculamos los puntajes para un set de datos dados y con eso se construye el modelo para la scorecard , al aplicarlo sobre el dataset original nos encontramos que la media de la poblacion ronda el puntaje de 549.198462 , ya como se obtuvo el modelo para prediccion , este se usara para predecir en base a las variables obtenidas , el score de una persona.
 
 ## Aplicacion 
-![Link de la aplicacion](https://ancgarciamo-trabajo01-tae01-6k2mt8.streamlit.app/) 
+[Link de la aplicacion](https://ancgarciamo-trabajo02-trabajo02tae-5uwqna.streamlit.app/) 
