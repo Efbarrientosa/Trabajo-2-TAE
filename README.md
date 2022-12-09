@@ -75,3 +75,11 @@ Por ultimo creamos un Scorecard, para esto usaremos los rangos sugeridos para lo
 
 ## Aplicacion 
 [Link de la aplicacion](https://ancgarciamo-trabajo02-trabajo02tae-5uwqna.streamlit.app/) 
+
+## Video promocional 
+
+## Referencias 
+[[1] How to Develop a Credit Risk Model and Scorecard](https://towardsdatascience.com/how-to-develop-a-credit-risk-model-and-scorecard-91335fc01f03)<br>
+[[2] How to Develop a Credit Risk Model and Scorecard - github](https://github.com/finlytics-hub/credit_risk_model/blob/master/Credit_Risk_Model_and_Credit_Scorecard.ipynb)<br>
+[[3] Streamlit](https://streamlit.io/)<br>
+[[4] Stackoverflow](https://stackoverflow.com/)
