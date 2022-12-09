@@ -9,11 +9,11 @@ Para esto tomamos un dataset que esta disponible en kaggle , este contiene infor
  
 Primero para garantizar mas exactitud en el modelo , eliminamos variables que cuenten con un gran porcentaje de nulos, precisamente , eliminamos variables que posean 80% de datos nulos.
  
-Imagen 01
+![]()
  
 Lo siguiente sera eliminar variables con informacion que no es relevante para el modelo.
  
-Imagen 02
+![]()
  
 ## Identificacion de la variable objetivo
  
@@ -21,34 +21,34 @@ Primero encontramos la variable que nos interesa predecir , la cual es loan stat
  
 Las variables que deciden si una persona no es buena opcion para un prestamo son (Charged Off', 'Default', 'Late (31-120 days)','Does not meet the credit policy. Status:Charged Off'), a estas personas se les asignara un 0 , y al resto de la poblacion se le asignara un 1. Convirtiendo asi la variable objetivo en un 0 siendo mala opcion y un 1 una buena opcion.
  
-Imagen 03
+![]()
  
 ## Dividir el dataset
 Dividimos el dataset en entrenamiento y validacion , con una relacion de 80 y 20 rspectivamente del dataset original.
  
-Imagen 04
+![]()
  
 ## Manejo de datos
 Ahora manejamos variables con informacion que en la manera que esta , no se puede digitar en un modelo, primero transformamos la variables emp_length ( el cual es años trabajando) , eliminamos toda cadena de texto , y en caso de ser especificamente trabajando menos de un año se vuelve 0 , ya despues de eso tenemos unicamente, datos numericos , en formato cadena , asi que transformamos en formato numerico los numeros.
  
 Asi para otras variables que necesiten algun manejo de datos se aplicara una funcion que las modifique.
  
-Imagen 05
+![]()
  
 ## Seleccion de variables
 Usando el metodo de chi cuadrado encontramos posibles variables para el modelo
  
-Imagen 06
+![]()
  
 Usando el analisis de varianza usando el estadistico F, encontramos las siguientes variables para el modelo.
  
-Imagen 07
+![]()
  
 ## Mapa de coorelacion
  
 Usando las 20 primeras variables, grraficamos el mapa de coorrelacion para poder obtener como se relacionan entre si.
  
-Imagen 08
+![]()
  
 siendo que out_prncp_inv y total_pymnt_inv tienen una alta coorelacion se eliminan.
  
@@ -61,13 +61,13 @@ el WOE usa la formula de logaritmo natural de la division entre el porcentaje de
  
 En la siguiente imagen mostramos un ejemplo usando la variable revol_util
  
-Imagen 09
+![]()
  
 ## Modelo inicial
 Una vez obtenido el modelo  , usando regresion logistica y usando validacion cruzada obtenemos un modelo de prediccion de si una persona es buen o no cliente
 con esto vemos que tanto el puntaje GINI como AUROC , son bastante buenos por lo tanto se acepta el modelo.
  
-Imagen 10
+![]()
  
 ## Modelo del Scorecard
  
